@@ -6,27 +6,6 @@ registration:
   socialLogins: ["discord", "facebook", "github", "google", "openid"]
 
 endpoints:   
-   azureOpenAI:
-    # Endpoint-level configuration
-    titleModel: "llama-70b-chat"
-    plugins: true
-    assistants: true
-    titleConvo: true
-    summarize: true
-    groups:
-    # Group-level configuration
-    - group: "Startup"
-      apiKey: "${azure_api_key}"
-      instanceName: "startupaitest"
-      baseURL: "${MY_CUSTOM_BASEURL}"
-      version: "2024-02-15-preview"
-      # Model-level configuration
-      models:
-        gpt-3.5-turbo:
-          deploymentName: startup
-        gpt-4-1106-preview:
-          deploymentName: LibreChat
-
    custom:
     # OpenRouter.ai
     - name: "OpenRouter"
