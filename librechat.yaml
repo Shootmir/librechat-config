@@ -172,7 +172,7 @@ endpoints:
      
    azureOpenAI:
     # Endpoint-level configuration
-    titleModel: "llama-chat"
+    titleModel: "llama-70b-chat"
     plugins: true
     assistants: true
     titleConvo: true
