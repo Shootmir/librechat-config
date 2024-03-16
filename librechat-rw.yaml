@@ -15,17 +15,18 @@ endpoints:
     summarize: true
     groups:
     # Group-level configuration
-    - group: "Startup"
-      apiKey: "${azure_api_key}"
-      instanceName: "startupaitest"
-      version: "2024-02-15-preview"
+    group: "Startup"
+    apiKey: "${azure_api_key}"
+    instanceName: "startupaitest"
+    baseURL: "${MY_CUSTOM_BASEURL}"
+    version: "2024-02-15-preview"
       # Model-level configuration
-      models:
+    models:
         gpt-3.5-turbo:
           deploymentName: startup
         gpt-4-1106-preview:
           deploymentName: LibreChat
-  custom:
+   custom:
     # OpenRouter.ai
     - name: "OpenRouter"
       apiKey: "${OPENROUTER_KEY}"
@@ -188,4 +189,3 @@ endpoints:
       dropParams: ["stop"]
       modelDisplayLabel: "Perplexity"
       iconURL: "https://raw.githubusercontent.com/fuegovic/lc-config-yaml/main/icons/perplexityai.png"
-
