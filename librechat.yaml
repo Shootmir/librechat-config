@@ -176,7 +176,7 @@ endpoints:
       baseURL: "https://api.mandrillai.tech/v1"
       models:
         default: [
-          "gpt-4-vision-preview",
+          "gpt-3.5-turbo-rp",
           "gpt-4",
           "gpt-4-1106-preview",
           "gpt-3.5-turbo",
