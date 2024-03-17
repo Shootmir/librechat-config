@@ -72,6 +72,8 @@ endpoints:
           "anthropic/claude-2.0:beta",
           "anthropic/claude-instant-1:beta",
           "anthropic/claude-3-haiku:beta",
+          "anthropic/claude-3-haiku",
+          "perplexity/sonar-small-online",
           "------------------------------",
           "meta-llama/llama-2-13b-chat",
           "meta-llama/llama-2-70b-chat",
