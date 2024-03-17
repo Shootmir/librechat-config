@@ -228,22 +228,3 @@ endpoints:
       forcePrompt: false
       modelDisplayLabel: "NagaAI"
       iconURL: "https://raw.githubusercontent.com/fuegovic/lc-config-yaml/main/icons/NagaAI.png"
-      
-    - azureOpenAI:
-      groups:
-      - group: "my-westus" # arbitrary name
-        apiKey: "${WESTUS_API_KEY}"
-        instanceName: "actual-instance-name" # name of the resource group or instance
-        version: "2023-12-01-preview"
-        models:
-          gpt-4-vision-preview:
-            deploymentName: gpt-4-vision-preview
-            version: "2024-02-15-preview"
-          gpt-3.5-turbo: true
-      - group: "my-eastus"
-        apiKey: "${EASTUS_API_KEY}"
-        instanceName: "actual-eastus-instance-name"
-        deploymentName: gpt-4-turbo
-        version: "2024-02-15-preview"
-        models:
-          gpt-4-turbo: true
