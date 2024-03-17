@@ -71,6 +71,7 @@ endpoints:
           "anthropic/claude-2.1:beta",
           "anthropic/claude-2.0:beta",
           "anthropic/claude-instant-1:beta",
+          "anthropic/claude-3-haiku:beta",
           "------------------------------",
           "meta-llama/llama-2-13b-chat",
           "meta-llama/llama-2-70b-chat",
