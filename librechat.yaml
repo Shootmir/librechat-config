@@ -222,9 +222,9 @@ endpoints:
           ]
         fetch: false
       titleConvo: true
-      titleModel: "gpt-3.5-turbo"
+      titleModel: "gpt-3.5-turbo-1106"
       summarize: false
-      summaryModel: "gpt-3.5-turbo"
+      summaryModel: "gpt-3.5-turbo-1106"
       forcePrompt: false
       modelDisplayLabel: "NagaAI"
       iconURL: "https://raw.githubusercontent.com/fuegovic/lc-config-yaml/main/icons/NagaAI.png"
