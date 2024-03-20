@@ -235,7 +235,7 @@ endpoints:
       # WebRAFT AI
     - name: "WebRAFT-AI"
       apiKey: "${webraft_api}"
-      baseURL: "https://api.webraft.in/freeapi/chat/completions"
+      baseURL: "https://api.webraft.in/v1/"
       models:
         default: [
           "deepseek-coder-1.3b",
