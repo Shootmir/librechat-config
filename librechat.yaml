@@ -231,36 +231,3 @@ endpoints:
       forcePrompt: false
       modelDisplayLabel: "NagaAI"
       iconURL: "https://raw.githubusercontent.com/fuegovic/lc-config-yaml/main/icons/NagaAI.png"
-
-      # WebRAFT AI
-    - name: "WebRAFT-AI"
-      apiKey: "${webraft_api}"
-      baseURL: "https://api.webraft.in/freeapi"
-      models:
-        default: [
-          "deepseek-coder-1.3b",
-          "merlinite-70b",
-          "gpt-4-1106-preview",
-          "gpt-4-vision-preview",
-          "gpt-4-0613",
-          "gpt-3.5-turbo-1106",
-          "gpt-3.5-turbo-0613",
-          "gemini-pro",
-          "gemini-pro-vision",
-          "llama-2-70b-chat",
-          "llama-2-13b-chat",
-          "llama-2-7b-chat",
-          "code-llama-34b",
-          "mistral-7b",
-          "mixtral-8x7b",
-          "falcon-180b-chat",
-          "claude-2",
-          "claude-instant"
-          ]
-        fetch: false
-      titleConvo: true
-      titleModel: "gpt-3.5-turbo-1106"
-      summarize: false
-      summaryModel: "gpt-3.5-turbo-1106"
-      forcePrompt: false
-      modelDisplayLabel: "WebRAFT-AI"
