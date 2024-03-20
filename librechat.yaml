@@ -233,13 +233,13 @@ endpoints:
       iconURL: "https://raw.githubusercontent.com/fuegovic/lc-config-yaml/main/icons/NagaAI.png"
 
       # WebRAFT AI
-    - name: "WebRAFT_AI"
-      apiKey: "${naga_key}"
+    - name: "WebRAFT-AI"
+      apiKey: "${webraft_api}"
       baseURL: "https://api.webraft.in/freeapi/chat/completions"
       models:
         default: [
-          "gpt-4-0125-preview",
-          "gpt-4-turbo-preview",
+          "deepseek-coder-1.3b",
+          "merlinite-70b",
           "gpt-4-1106-preview",
           "gpt-4-vision-preview",
           "gpt-4-0613",
@@ -263,4 +263,4 @@ endpoints:
       summarize: false
       summaryModel: "gpt-3.5-turbo-1106"
       forcePrompt: false
-      modelDisplayLabel: "NagaAI"
+      modelDisplayLabel: "WebRAFT-AI"
