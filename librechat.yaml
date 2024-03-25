@@ -7,7 +7,7 @@ registration:
 
 endpoints:
   azureOpenAI:
-    titleModel: "gpt-3.5-turbo-1106"
+    titleModel: "gpt-3.5-turbo"
     titleConvo: true
     assistants: true # <-------- critical
     groups:
