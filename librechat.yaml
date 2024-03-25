@@ -6,7 +6,26 @@ registration:
   socialLogins: ["discord", "facebook", "github", "google", "openid"]
 
 endpoints:
-   custom:
+  azureOpenAI:
+    titleModel: "gpt-3.5-turbo-1106"
+    titleConvo: true
+    plugins: true
+    summarize: true
+    assistants: true # <-------- critical
+    groups:
+    - group: "UK South"
+      apiKey: "${azure_API_KEY}"
+      instanceName: "startupaitest"
+      version: "2024-02-15-preview"
+      models:
+        gpt-3.5-turbo:
+          deploymentName: "startup"
+        gpt-35-turbo-16k:
+          deploymentName: "gpt-35-turbo-16k"
+        gpt-4:
+          deploymentName: "LibreChat"
+   
+  custom:
     # OpenRouter.ai
     - name: "OpenRouter"
       apiKey: "${OPENROUTER_KEY}"
