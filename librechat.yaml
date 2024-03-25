@@ -9,6 +9,8 @@ endpoints:
   azureOpenAI:
     titleModel: "gpt-3.5-turbo"
     titleConvo: true
+    plugins: true
+    summarize: true
     groups:
     - group: "UK South"
       apiKey: "${azure_API_KEY}"
