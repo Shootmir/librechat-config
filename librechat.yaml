@@ -328,7 +328,7 @@ endpoints:
         fetch: false
       titleConvo: true
       titleMethod: "completion"
-      titleModel: "gemini-pro"
+      titleModel: "mistral-small"
       summarize: false
       summaryModel: "llama-summarize"
       forcePrompt: false
