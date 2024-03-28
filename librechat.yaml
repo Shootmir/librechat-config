@@ -319,7 +319,7 @@ endpoints:
     # ShuttleAI API
     - name: "WebRAFT"
       apiKey: "user_provided"
-      baseURL: "https://api.webraft.in/freeapi/v1"
+      baseURL: "https://api.webraft.in/freeapi/v1/chat/completions"
       models: 
         default: [
           "mistral-small",
