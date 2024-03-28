@@ -315,22 +315,3 @@ endpoints:
       forcePrompt: false
       dropParams: ["user", "frequency_penalty", "presence_penalty"]
       modelDisplayLabel: "ShuttleAI"
-
-    # ShuttleAI API
-    - name: "WebRAFT"
-      apiKey: "user_provided"
-      baseURL: "https://api.webraft.in/freeapi/v1/chat/completions"
-      models: 
-        default: [
-          "mistral-small",
-          "merlinite-70b"
-          ]
-        fetch: false
-      titleConvo: true
-      titleMethod: "completion"
-      titleModel: "mistral-small"
-      summarize: false
-      summaryModel: "mistral-small"
-      forcePrompt: false
-      dropParams: ["user", "frequency_penalty", "presence_penalty"]
-      modelDisplayLabel: "WebRAFT"
