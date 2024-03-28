@@ -330,7 +330,7 @@ endpoints:
       titleMethod: "completion"
       titleModel: "mistral-small"
       summarize: false
-      summaryModel: "llama-summarize"
+      summaryModel: "mistral-small"
       forcePrompt: false
       dropParams: ["user", "frequency_penalty", "presence_penalty"]
       modelDisplayLabel: "WebRAFT"
