@@ -16,12 +16,15 @@ endpoints:
       instanceName: "startupaitest"
       version: "2024-02-15-preview"
       models:
+        text-embedding-ada-002:
+          deploymentName: "text-embedding-ada-002"
         gpt-3.5-turbo:
           deploymentName: "startup"
         gpt-35-turbo-16k:
           deploymentName: "gpt-35-turbo-16k"
         gpt-4:
           deploymentName: "LibreChat"
+        
   custom:
     # OpenRouter.ai
     - name: "OpenRouter"
