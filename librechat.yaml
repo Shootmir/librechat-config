@@ -316,3 +316,16 @@ endpoints:
       forcePrompt: false
       dropParams: ["user", "frequency_penalty", "presence_penalty"]
       modelDisplayLabel: "ShuttleAI"
+
+    - name: "LiteLLM"
+      apiKey: "sk-from-config-file"
+      baseURL: "http://localhost:8000/v1"
+      models:
+        default: ["gpt-3.5-turbo"]
+        fetch: true
+      titleConvo: true
+      titleModel: "gpt-3.5-turbo"
+      summarize: false
+      summaryModel: "gpt-3.5-turbo"
+      forcePrompt: false
+      modelDisplayLabel: "LiteLLM"
