@@ -317,15 +317,18 @@ endpoints:
       dropParams: ["user", "frequency_penalty", "presence_penalty"]
       modelDisplayLabel: "ShuttleAI"
 
-    - name: "LiteLLM"
-      apiKey: "sk-from-config-file"
-      baseURL: "http://localhost:8000/v1"
+     # NVIDIA
+    - name: "NVIDIA"
+      apiKey: "${nvidia_key}"
+      baseURL: "https://integrate.api.nvidia.com/v1"
       models:
-        default: ["gpt-3.5-turbo"]
+        default: [
+          "meta/codellama-70b"
+          ]
         fetch: true
       titleConvo: true
-      titleModel: "gpt-3.5-turbo"
+      titleModel: "meta/codellama-70b"
       summarize: false
-      summaryModel: "gpt-3.5-turbo"
+      summaryModel: "meta/codellama-70b"
       forcePrompt: false
-      modelDisplayLabel: "LiteLLM"
+      modelDisplayLabel: "Nvidia"
